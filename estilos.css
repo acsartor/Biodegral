@@ -1,0 +1,65 @@
+body {
+    background-color: #d4edda;
+}
+.navbar, .footer {
+    background-color: #155724;
+}
+.nav-link, .footer span {
+    color: #00FA9A;
+}
+.img-introducao {
+    height: 80px;
+}
+.img-introducao-maior {
+    height: 300px;
+}
+.navbar-titulo {
+    color: #00FA9A;
+    font-size: 2em;
+}
+.btn-custom {
+    background-color: #00FA9A;
+    color: #155724;
+}
+section h1, h2 {
+    color: #155724;
+}
+section p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+}
+.col-md-3 {
+    padding-left: 70px;
+    margin-top: -5px;
+}
+.img-fluid {
+    width: 790px;
+    margin-bottom: 10px;
+}
+.image-container img {
+    transition: transform 0.3s ease;
+    width: 200px;
+}
+.image-container:hover img {
+    transform: scale(1.2);
+}
+aside h2 {
+    font-size: 24px;
+    color: #155724;
+}
+aside p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+.fade-in, .img-fluid {
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
